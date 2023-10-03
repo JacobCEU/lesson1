@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    height: 75px;
+}
+
+.header{
+    min-height: 700px;
+    background-image: linear-gradient(#1c1c1c65, #1c1c1c), url('../img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery{
+    min-height: 200px;
+    margin-bottom: 0;
+}
+
+.card1{
+    background-color: #1c1c1cb5;
+}
+
+.carousel-item img {
+    height: 400px; 
+    object-fit: cover;
+    width: 100%; 
+}
+
+.About_us {
+    min-height: 100vh;
+    background-image: linear-gradient(#1c1c1c65, #1c1c1c),url('../img/aubg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10vh;
+  }
